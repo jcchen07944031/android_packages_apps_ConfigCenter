@@ -776,4 +776,22 @@
     <string name="squeeze_gestures_activated">觸發握壓手勢時震動</string>
     <string name="squeeze_gestures_screen_off_activated">觸發鎖定手勢時震動</string>
 	
+	<!-- Action Strings -->
+    <string name="action_dialog_title">手勢動作</string>
+    <string name="action_do_nothing">無動作</string>
+    <string name="action_flashlight">切換手電筒</string>
+    <string name="action_camera">打開相機</string>
+    <string name="action_browser">打開瀏覽器</string>
+    <string name="action_dialer">打開電話</string>
+    <string name="action_email">查看郵件</string>
+    <string name="action_messages">查看訊息</string>
+    <string name="action_play_pause_music">播放/暫停播放</string>
+    <string name="action_previous_track">切換上一曲</string>
+    <string name="action_next_track">切換下一曲</string>
+    <string name="action_volume_down">降低音量</string>
+    <string name="action_volume_up">提高音量</string>
+    <string name="action_take_screenshot">螢幕截圖</string>
+    <string name="action_turn_screen_on_off">打開/關閉螢幕</string>
+    <string name="action_doze">觸發環境顯示</string>
+	
 </resources>

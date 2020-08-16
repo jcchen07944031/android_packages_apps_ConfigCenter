@@ -923,4 +923,21 @@
     <string name="squeeze_haptic_ignore_ringer_summary">Vibrate even when in Do Not Disturb Mode</string>
     <string name="squeeze_gestures_activated">Vibrate when a squeeze gesture is activated</string>
     <string name="squeeze_gestures_screen_off_activated">Vibrate when a screen off gesture is activated</string>
+	
+	<!-- Action Strings -->
+    <string name="action_dialog_title">Gesture action</string>
+    <string name="action_do_nothing">Do nothing</string>
+    <string name="action_flashlight">Toggle the flashlight</string>
+    <string name="action_camera">Open the camera</string>
+    <string name="action_browser">Open the browser</string>
+    <string name="action_dialer">Open the dialer</string>
+    <string name="action_email">View your emails</string>
+    <string name="action_messages">View your messages</string>
+    <string name="action_play_pause_music">Play/pause music playback</string>
+    <string name="action_previous_track">Navigate to the previous music track</string>
+    <string name="action_next_track">Skip to the next music track</string>
+    <string name="action_volume_down">Lower media volume</string>
+    <string name="action_volume_up">Raise media volume</string>
+    <string name="action_take_screenshot">Take a screenshot</string>
+    <string name="action_turn_screen_on_off">Turn Screen On/Off</string>
 </resources>
