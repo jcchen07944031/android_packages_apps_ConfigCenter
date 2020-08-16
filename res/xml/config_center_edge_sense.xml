@@ -31,7 +31,7 @@
 
         <SwitchPreference
             android:key="squeeze_haptic_feedback"
-            android:title="@string/touchscreen_gestures_haptic_feedback_title"
+            android:title="@string/squeeze_gestures_haptic_feedback_title"
             android:defaultValue="true"
             android:summary="@string/squeeze_gestures_activated"
             android:dependency="squeeze_enabled" />

@@ -767,12 +767,13 @@
     <string name="squeeze_long_title">長握手勢</string>
     <string name="squeeze_gestures_enabled">啟用握壓手勢</string>
     <string name="squeeze_gestures_disabled">禁用握壓手勢</string>
-    <string name="squeeze_long_activation_time">長握觸發時間</string>
+    <string name="squeeze_long_activation_time">長握壓觸發時間</string>
     <string name="squeeze_force_title">握壓力度</string>
     <string name="squeeze_force_summary">調整握壓力度</string>
     <string name="squeeze_advanced_settings_title">握壓進階設置</string>
-    <string name="squeeze_haptic_ignore_ringer_title">觸覺反應忽略呼叫模式</string>
-    <string name="squeeze_haptic_ignore_ringer_summary">觸覺反應發生時忽略響鈴模式</string>
+    <string name="squeeze_haptic_ignore_ringer_title">忽略響鈴模式</string>
+    <string name="squeeze_haptic_ignore_ringer_summary">握壓反應發生時忽略響鈴模式</string>
+    <string name="squeeze_gestures_haptic_feedback_title">握壓反應</string>
     <string name="squeeze_gestures_activated">觸發握壓手勢時震動</string>
     <string name="squeeze_gestures_screen_off_activated">觸發鎖定手勢時震動</string>
 	
