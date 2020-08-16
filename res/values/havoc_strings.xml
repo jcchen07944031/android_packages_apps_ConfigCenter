@@ -24,12 +24,12 @@
     <string name="about_summary">Learn more about Havoc-OS</string>
     <string name="animations_title">Animations</string>
     <string name="animations_summary">System animations, QS tile animations</string>
-    <string name="buttons_title">Buttons</string>
+    <string name="buttons_title">Buttons &amp; Navigation</string>
     <string name="buttons_summary">Hardware keys, Navigation bar</string>
     <string name="gestures_title">Gestures</string>
     <string name="gestures_summary">Jump to camera, swipe to screenshot</string>
     <string name="lockscreen_title">Lock Screen</string>
-    <string name="lockscreen_summary">Music visualizer, pocket detection</string>
+    <string name="lockscreen_summary">Pocket detection, charging info</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">Gaming mode, charging animation</string>
     <string name="navigation_title">Navigation</string>
@@ -45,6 +45,8 @@
     <string name="ambient_display_custom_summary">Always on, music ticker, gestures</string>
     <string name="screen_title">Screen</string>
     <string name="screen_summary">Rounded corners, legacy app scaling</string>
+    <string name="media_title">Media</string>
+    <string name="media_summary">Adaptive playback, music visualizer</string>
 
     <!-- About -->
 	<string name="team_category_title">Team</string>
@@ -231,9 +233,8 @@
     <string name="swap_volume_buttons_summary">Invert volume keys when the device is rotated</string>
     
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_category">Music</string>
     <string name="media_art_title">Media artwork</string>
-    <string name="media_art_summary">Show the media art of the song that\'s playing</string>
+    <string name="media_art_summary">Display album art of the currently playing song on the lockscreen</string>
 
     <!-- Lock screen media blur -->
     <string name="lockscreen_media_blur_title">Media artwork blur level</string>
@@ -279,20 +280,6 @@
     <!-- Bluetooth battery status --> 
     <string name="bluetooth_battery_title">Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Display battery level for the connected bluetooth device, if available</string>
-
-    <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Music visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while music\'s playing</string>
-    <string name="lockscreen_autocolor_title">Automatic color</string>
-    <string name="lockscreen_autocolor_summary">Sync color with lockscreen background</string>
-    <string name="lockscreen_autocolor_lavalamp">Requires lava lamp disabled</string>
-    <string name="lockscreen_lavalamp_title">Lava lamp</string>
-    <string name="lockscreen_lavalamp_summary">Use a smooth lava lamp style color blend animation</string>
-    <string name="lockscreen_lavalamp_speed_title">Color blend interval</string>
-    <string name="lockscreen_solid_lines_category">Solid Lines</string>
-    <string name="lockscreen_solid_units_count_title">Lines count</string>
-    <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
-    <string name="lockscreen_solid_units_opacity_title">Lines opacity</string>
 
     <!-- Notification light -->
     <string name="notification_lights">Lights</string>
@@ -525,14 +512,14 @@
 
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Carrier label</string>
-    <string name="carrier_label_settings_summary">Display the network name in the status bar</string>
-    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="carrier_label_settings_summary">Display the current network name in the status bar</string>
+    <string name="custom_carrier_label_title">Custom text</string>
     <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label location</string>
-    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_title">Location</string>
     <string name="show_carrier_keyguard">Lockscreen</string>
     <string name="show_carrier_statusbar">Status bar</string>
+    <string name="show_carrier_both">Lockscreen &amp; Status bar</string>
     <string name="show_carrier_enabled">Both</string>
 
     <!-- Statusbar logo -->
@@ -772,7 +759,6 @@
     <string name="fod_recognizing_animation_summary">Show an animation while reading your fingerprint</string>
 
     <!-- Adaptive Playback -->
-    <string name="media_title">Media</string>
     <string name="adaptive_playback_title">Adaptive playback</string>
     <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
     <string name="adaptive_playback_timeout_title">Playback timeout</string>
@@ -880,8 +866,8 @@
 
     <!-- Pulse -->
     <string name="pulse_help_policy_notice_summary">Pulse does not work with some audio sources when listening on device speaker</string>
-    <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Navigation bar audio graphic equalizer</string>
+    <string name="pulse_settings">Music visualizer</string>
+    <string name="pulse_settings_summary">Show graphic equalizer while music\'s playing</string>
     <string name="pulse_render_mode_title">Render mode</string>
     <string name="pulse_render_mode_fading_bars">Fading blocks</string>
     <string name="pulse_render_mode_solid_lines">Solid lines</string>
@@ -905,6 +891,11 @@
     <string name="pulse_custom_div">Bar spacing</string>
     <string name="pulse_filled_block_size">Block size</string>
     <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_location_title">Location</string>
+    <string name="pulse_location_lockscreen">Lockscreen</string>
+    <string name="pulse_location_navbar">Navbar</string>
+    <string name="pulse_location_both">Both</string>
+    <string name="pulse_location_both_summary">Lockscreen and Navbar</string>
 
 	<!-- Squeeze Gesture Strings -->
 	<string name="gesture_edge_sense_title">HTC Squeeze Gestures</string>
