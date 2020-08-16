@@ -927,7 +927,6 @@
 	<!-- Action Strings -->
     <string name="action_dialog_title">Gesture action</string>
     <string name="action_do_nothing">Do nothing</string>
-    <string name="action_flashlight">Toggle the flashlight</string>
     <string name="action_camera">Open the camera</string>
     <string name="action_browser">Open the browser</string>
     <string name="action_dialer">Open the dialer</string>

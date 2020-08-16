@@ -779,7 +779,6 @@
 	<!-- Action Strings -->
     <string name="action_dialog_title">手勢動作</string>
     <string name="action_do_nothing">無動作</string>
-    <string name="action_flashlight">切換手電筒</string>
     <string name="action_camera">打開相機</string>
     <string name="action_browser">打開瀏覽器</string>
     <string name="action_dialer">打開電話</string>
