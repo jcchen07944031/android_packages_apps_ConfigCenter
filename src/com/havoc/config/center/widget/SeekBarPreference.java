@@ -32,7 +32,7 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 
 import com.android.settingslib.RestrictedPreference;
 
-import org.lineageos.settings.device.R;
+import com.android.settings.R;
 
 /**
  * Based on android.preference.SeekBarPreference, but uses support preference as base.

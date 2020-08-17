@@ -23,7 +23,7 @@ import android.util.Log;
 import com.android.settings.SettingsPreferenceFragment;
 import com.havoc.config.center.widget.SeekBarPreference;
 
-public class EdgeSenseSettingsFragment extends SettingsPreferenceFragment {
+public class EdgeSense extends SettingsPreferenceFragment {
 public static final String TAG = "GESTURESETTINGS";
     private static final String SEEKBAR_PREFERENCE  = "squeeze_force";
     private SeekBarPreference mSeekBar;
