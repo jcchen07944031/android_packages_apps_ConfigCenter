@@ -20,7 +20,9 @@ package com.havoc.config.center.fragments;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+
 import com.havoc.config.center.widget.SeekBarPreference;
 
 public class EdgeSense extends SettingsPreferenceFragment {
@@ -31,5 +33,10 @@ public static final String TAG = "GESTURESETTINGS";
     @Override
     public void onCreate(Bundle savedInstanceState) {
         addPreferencesFromResource(R.xml.config_center_edge_sense);
+    }
+	
+    @Override
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.HAVOC_SETTINGS;
     }
 }
